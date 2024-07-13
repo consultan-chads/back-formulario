@@ -4,7 +4,7 @@ export class CreateBlogSect1Dto {
 
     @IsString()
     @MinLength(1)
-    name: string;
+    nombre: string;
 
     @IsString()
     @MinLength(1)
@@ -18,6 +18,7 @@ export class CreateBlogSect1Dto {
     @IsString()
     @MinLength(1)
     mensaje: string;
+
 
 
 
